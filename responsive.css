@@ -79,6 +79,8 @@
 
 @media (max-width:768px){
 
+
+  
   .navbar{
     flex-direction:row;
     justify-content:space-between;
@@ -207,6 +209,7 @@
   .hero p{
     font-size:14px;
     padding-left: 10px;
+    padding-top: 15px;
     
   }
 
@@ -215,6 +218,7 @@
     max-width:180px;
     font-size:15px;
     padding:12px 8px;
+    margin-top: 26px ;
     
   }
 
@@ -282,6 +286,7 @@
 
   .footer-links h4{
     font-size:22px;
+    padding-right: 20px;
   }
 
   .footer-grid{
@@ -289,10 +294,16 @@
   }
 
   .footer-copy{
-    margin-right: 32px;
+    margin-right: 26px;
+    font-size: 12px;
   }
 
-
+.footer-center{
+  justify-content:center;
+  padding-left:  30px;
+  margin-left: 12px; /* 
+  transform: translateX(20px);👈 move slightly right */
+}
 
 
 }
