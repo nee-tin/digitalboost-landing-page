@@ -196,24 +196,33 @@ img{
 ========================= */
 
 .trust-bar{
-    width:100%;
-    min-height:84px;
-
-    background: #00163d;
-
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:33px;
-
     flex-wrap:wrap;
+    gap:28px;
+    padding:18px 20px;
 
-     border-top: 2px solid #000c201a;
-    padding:22px 22px;
+    font-size:15px;
+    font-weight:500;
+    color:#ffffff;
 
-    color:#fff;
-    font-size:14px;
-    font-weight:600;
+    background:#001b4d;
+}
+
+.trust-item{
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    opacity:.92;
+    letter-spacing:.2px;
+}
+
+.trust-divider{
+    width:1px;
+    height:18px;
+    background:rgba(255,255,255,.18);
 }
 
 .trust-divider{
