@@ -198,18 +198,18 @@ img{
 
 .trust-bar{
     width:100%;
-    min-height:82px;
+    min-height:84px;
 
     background:#030a3c;
 
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:28px;
+    gap:33px;
 
     flex-wrap:wrap;
-    border: 2px solid #111
-    padding:24px 26px;
+    border: 1px solid #111;
+    padding:22px 22px;
 
     color:#fff;
     font-size:14px;
