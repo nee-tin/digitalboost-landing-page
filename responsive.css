@@ -285,7 +285,7 @@
   .footer-btn{
     font-size:16px;
     padding:14px 24px;
-    margin-left: 10px;
+    margin-left: 4px;
 
   }
 
@@ -321,7 +321,7 @@
 .footer-center{
   justify-content:center;
    
-  margin-left: 4px; /* 
+  margin-left: 0px; /* 
   /*  move slightly right */
 }
 

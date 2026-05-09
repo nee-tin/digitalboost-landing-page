@@ -462,9 +462,9 @@ section{
   justify-content:center;
 
   transform: translateX(20px);
-     padding-right:  50px;
-  margin-right: 12px; 
-  padding-right:  50px;
+     padding-right:  s20px;
+  margin-right: 8px; 
+  padding-right:  40px;
   margin-right: 12px; /* 
   transform: translateX(20px);👈 move slightly right */
 }
@@ -476,9 +476,9 @@ section{
     color:#fff;
     text-decoration:none;
 
-    padding:22px 58px;
+    padding:14px 22px;
     border-radius:12px;
-    margin-right: 10px;
+    margin-right: 2px;
 
     font-size:22px;
     font-weight:700;
