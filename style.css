@@ -200,7 +200,7 @@ img{
     width:100%;
     min-height:82px;
 
-    background:#06125e;
+    background:#030a3c;
 
     display:flex;
     justify-content:center;
@@ -208,7 +208,8 @@ img{
     gap:28px;
 
     flex-wrap:wrap;
-
+    border-color: #111;
+    border-width: 2px;
     padding:24px 26px;
 
     color:#fff;
