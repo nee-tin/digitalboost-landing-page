@@ -207,7 +207,9 @@ img{
     gap:33px;
 
     flex-wrap:wrap;
+
      border-top: 1px solid #000c201a;
+    border: 1px solid #03023d;
     padding:22px 22px;
 
     color:#fff;
