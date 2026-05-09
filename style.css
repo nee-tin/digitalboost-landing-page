@@ -208,8 +208,7 @@ img{
     gap:28px;
 
     flex-wrap:wrap;
-    border-color: #111;
-    border-width: 2px;
+    border: 2px solid #111
     padding:24px 26px;
 
     color:#fff;
