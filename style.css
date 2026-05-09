@@ -460,7 +460,9 @@ section{
 .footer-center{
   display:flex;
   justify-content:center;
-  transform: translateX(20px);  /* 👈 move slightly right */
+  transform: translateX(20px);
+     padding-right:  50px;
+  margin-right: 12px; /* 👈 move slightly right */
 }
 
 
