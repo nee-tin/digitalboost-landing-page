@@ -105,7 +105,7 @@ img{
 
 .hero{
     min-height:600px;
-    padding:90px 20px;
+    padding: 90px 20px;
 
     display:flex;
     align-items:center;
@@ -142,11 +142,11 @@ img{
 
 .hero p{
     color:#fff;
-    font-size:21px;
+    font-size:19px;
     line-height:1.65;
     font-weight:300;
-    padding-top: 12px;
-    padding-bottom: 32px;
+    padding-top: 32px;
+    
     max-width:1080px;
     margin:0 auto 52px;
 }
@@ -161,7 +161,7 @@ img{
 
     padding:16px 32px;
     border-radius:13px;
-    margin-top: 22px;
+    margin-top: 32px;
     font-size:17px;
     font-weight:700;
 
@@ -199,7 +199,7 @@ img{
     width:100%;
     min-height:84px;
 
-    background:#030a3c;
+    background: #00163d;
 
     display:flex;
     justify-content:center;
@@ -207,7 +207,7 @@ img{
     gap:33px;
 
     flex-wrap:wrap;
-    border: 1px solid #111;
+     border-top: 1px solid #000c201a;
     padding:22px 22px;
 
     color:#fff;
