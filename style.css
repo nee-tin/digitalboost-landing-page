@@ -1,5 +1,8 @@
 /* style.css */
 
+
+
+
 *{
     margin:0;
     padding:0;
@@ -10,12 +13,22 @@ body{
     font-family:'Poppins', sans-serif;
     background:#030a3c;
     overflow-x:hidden;
+    width:100%;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 img{
     max-width:100%;
     display:block;
 }
+
+ 
 
 /* =========================
    NAVBAR
@@ -119,6 +132,7 @@ img{
 
 .hero-content{
     max-width:1400px;
+    width:100%;
     margin-top:-40px;
 }
 
@@ -679,11 +693,22 @@ img{
 
     .footer-left h2{
         font-size:28px;
+        padding-right: 80px;
+        text-align: center;
     }
 
     .footer-left p{
         font-size:16px;
+        padding-right: 40px;
     }
+
+     .footer-left{
+         padding-right: 40px;
+    }
+        
+.footer-brand h3{
+    padding-left: 40px;
+}
 
     .footer-btn{
         font-size:16px;
@@ -698,4 +723,13 @@ img{
     .footer-copy{
         font-size:12px;
     }
+}
+
+section,
+div{
+    max-width:100%;
+}
+
+body{
+   overflow-x:auto;
 }
