@@ -314,14 +314,14 @@
   }
 
   .footer-copy{
-    margin-right: 26px;
+    
     font-size: 12px;
   }
 
 .footer-center{
   justify-content:center;
    
-  margin-left: 0px; /* 
+    /* 
   /*  move slightly right */
 }
 
