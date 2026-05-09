@@ -460,15 +460,13 @@ section{
 .footer-center{
   display:flex;
   justify-content:center;
-<<<<<<< HEAD
+
   transform: translateX(20px);
      padding-right:  50px;
-  margin-right: 12px; /* 👈 move slightly right */
-=======
+  margin-right: 12px; 
   padding-right:  50px;
   margin-right: 12px; /* 
   transform: translateX(20px);👈 move slightly right */
->>>>>>> 92e8360 (Updated digital marketing landing page)
 }
 
 
@@ -480,6 +478,7 @@ section{
 
     padding:22px 58px;
     border-radius:12px;
+    margin-right: 10px;
 
     font-size:22px;
     font-weight:700;
