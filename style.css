@@ -501,12 +501,14 @@ section{
     font-size:42px;
     font-weight:700;
     margin-bottom:24px;
+    padding-right: 24px;
 }
 
 .footer-brand p{
     font-size:22px;
     font-weight:300;
     line-height:1.7;
+    padding-right: 4px;
 }
 
 
@@ -515,7 +517,7 @@ section{
   justify-self:start;
   justify-self:end; 
   margin-right:20px; 
-  padding-right: 4px;
+  padding-right: 30px;
 }
 
 .footer-links h4{
