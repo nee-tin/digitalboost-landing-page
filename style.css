@@ -40,15 +40,13 @@ img{
     align-items:center;
     justify-content:space-between;
 
-    background:
+   background:
     linear-gradient(
-        90deg,
-        #001331 0%,
-        #00173a 40%,
-        #001839 65%,
-        #00112e 100%
+        135deg,
+        #04132D 0%,
+        #031127 50%,
+        #000919 100%
     );
-
     z-index:999;
 }
 
