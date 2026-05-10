@@ -136,8 +136,8 @@ img{
     font-size:64px;
     line-height:1.08;
     font-weight:700;
-    padding-top: 32px;
-    margin-bottom:40px;
+    padding-top: 2px;
+    margin-bottom:48px;
 }
 
 .hero p{
@@ -145,7 +145,7 @@ img{
     font-size:19px;
     line-height:1.65;
     font-weight:300;
-    padding-top: 32px;
+    padding-bottom: 32px;
     
     max-width:1080px;
     margin:0 auto 52px;
@@ -164,7 +164,7 @@ img{
     margin-top: 32px;
     font-size:17px;
     font-weight:700;
-
+     
     transition:.3s ease;
 }
 
@@ -203,11 +203,11 @@ img{
     gap:28px;
     padding:18px 20px;
 
-    font-size:15px;
-    font-weight:500;
+   font-size:14px;
+   font-weight:500;
     color:#ffffff;
 
-    background:#001b4d;
+    background:rgba(255,255,255,.12);
 }
 
 .trust-item{
