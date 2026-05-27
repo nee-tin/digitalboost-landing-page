@@ -241,7 +241,7 @@ img{
 .services-top{
     background:#00163d;
     text-align:center;
-    padding:70px 20px 58px;
+    padding:40px 8px 33px;
 }
 
 .services-top h2{
@@ -276,7 +276,7 @@ img{
 
     display:flex;
     justify-content:space-between;
-    gap:30px;
+    gap:36px;
 
     flex-wrap:nowrap;
 }
@@ -630,4 +630,61 @@ img{
     .footer-brand{
         margin-top:40px;
     }
+}
+
+
+@media (max-width:480px){
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding-top:-80px;
+    }
+
+    h1{
+        padding-bottom: 8px;
+    }
+
+    p{
+        padding-top: 8px;
+    }
+
+.trust-bar{
+  
+    gap:16px;
+    padding:4px 12px;
+
+   font-size:10px;
+   font-weight:500;
+    color:#ffffff;
+
+    background:rgba(255,255,255,.12);
+}
+
+.trust-item{
+    display:flex;
+    align-items:center;
+    gap:2px;
+
+    opacity:.92;
+    letter-spacing:.1px;
+}
+
+
+.services-top{
+    background:#00163d;
+    text-align:center;
+    padding:10px 2px 8px;
+}
+
+
+ .service-card{
+    padding: 24px 8px;
+     
+}
+
+ 
+   
+
+
 }

@@ -80,6 +80,8 @@
     width: 100%;
     padding: 0 25px;
   }
+
+
    .footer-btn{
     padding:16px 36px;
     font-size:16px;
@@ -87,7 +89,6 @@
     white-space:nowrap;
   }
 
- 
 
   .footer-center{
     justify-content:center;
@@ -165,11 +166,19 @@
     height:auto;
   }
 
+   .trust-bar {
+    width: 100%;
+    padding: 12px 25px;
+  }
+
+   
   .service-grid{
     flex-direction:column;
     gap:20px;
     padding:0;
   }
+
+  
 
   .service-card{
     width:100%;
@@ -259,4 +268,6 @@
 }
 
 
- 
+ @media (max-width:480px){
+  
+ }
