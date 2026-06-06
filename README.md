@@ -1,4 +1,4 @@
- ## digitalboost-landing-page:  
+ ## Digitalboost-landing-page:  
 ## Live view: https://digitalboost-landing-page.vercel.app/
 
 ## 🖼️ Project Preview
