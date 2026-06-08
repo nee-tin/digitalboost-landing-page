@@ -206,8 +206,7 @@ img{
    font-size:14px;
    font-weight:500;
     color:#ffffff;
-
-    background:rgba(255,255,255,.12);
+    background-color:  rgb(6, 6, 80);
 }
 
 .trust-item{
@@ -286,7 +285,7 @@ img{
 
     min-height:172px;
 
-    background:#efefec;
+    background:#ffffff;
 
     border-radius:22px;
 
@@ -360,7 +359,7 @@ img{
 
     margin:0 auto;
 
-    background:#efefef;
+    background:#ffffff;
 
     border-radius:18px;
 
@@ -427,6 +426,7 @@ img{
     display:flex;
     justify-content:center;
     padding-right:20px;
+    margin-right: 26px
 }
 
 .footer-btn{
@@ -436,7 +436,7 @@ img{
     color:#fff;
 
     text-decoration:none;
-
+    margin-right: 14px;
     padding:14px 22px;
     border-radius:12px;
 
