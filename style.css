@@ -237,16 +237,22 @@ img{
     margin:0 auto;
 }
 
-.services-top{
-    background:#00163d;
-    text-align:center;
-    padding:40px 8px 33px;
+.services-top {
+    background: #00163d;
+    text-align: center;
+    padding: 40px 8px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .services-top h2{
     color:#fff;
     font-size:48px;
     margin-bottom:18px;
+    padding-bottom: 12px;
 }
 
 .services-top p{
@@ -256,6 +262,7 @@ img{
     line-height:1.7;
     max-width:700px;
     margin:0 auto;
+    padding-bottom: 24px;
 }
 
 /* =========================
