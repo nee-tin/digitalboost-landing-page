@@ -290,8 +290,8 @@ img{
     border-radius:22px;
 
     box-shadow:
-    0 3px 8px rgba(0,0,0,.18),
-    inset 0 1px 0 rgba(255,255,255,.6);
+    0 3px 8px rgba(0,0,0,.28),
+    inset 0 1px 0 rgba(255,255,255,.45);
 
     padding:34px 26px;
 
@@ -363,7 +363,10 @@ img{
 
     border-radius:18px;
 
-    box-shadow:0 2px 8px rgba(0,0,0,.14);
+   box-shadow:
+    0 3px 8px rgba(0,0,0,.28),
+    inset 0 1px 0 rgba(255,255,255,.45);
+
 
     padding:42px 30px;
 
