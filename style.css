@@ -97,6 +97,12 @@ img{
 
     font-size:14px;
     font-weight:600;
+    transition:.3s ease;
+}
+
+.nav-btn:hover{
+    transform:translateY(-4px);
+    background:#31d8d0;
 }
 
 /* =========================
