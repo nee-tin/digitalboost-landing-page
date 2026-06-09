@@ -208,11 +208,17 @@ img{
     flex-wrap:wrap;
     gap:28px;
     padding:18px 20px;
+    margin-right: 4px;
 
    font-size:14px;
    font-weight:500;
     color:#ffffff;
-    background-color:  rgb(6, 6, 80);
+   
+      background:#001532;
+      border: 1px solid rgb(11, 11, 14);
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
 }
 
 .trust-item{
@@ -258,17 +264,17 @@ img{
     color:#fff;
     font-size:48px;
     margin-bottom:18px;
-    padding-bottom: 12px;
+    padding-bottom: 0px;
 }
 
 .services-top p{
     color:#ffffff;
-    font-size:22px;
+    font-size:20px;
     font-weight:300;
     line-height:1.7;
     max-width:700px;
-    margin:0 auto;
-    padding-bottom: 24px;
+    margin-bottom: 8PX;
+    padding-bottom: 28px;
 }
 
 /* =========================
