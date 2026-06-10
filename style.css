@@ -92,19 +92,13 @@ img{
     color:#fff;
     background:#27d3c7;
 
-<<<<<<< HEAD
-    padding:7px 10px;
+
+    padding:7px 11px;
     border-radius:12px;
 
     font-size:14px;
     font-weight:700;
-=======
-    padding:13px 22px;
-    border-radius:12px;
 
-    font-size:14px;
-    font-weight:600;
->>>>>>> ee1faf063813de4cad3ad8fcef4727feca3296fa
     transition:.3s ease;
 }
 
@@ -172,18 +166,10 @@ img{
     color:#fff;
 
     background:#27d3c7;
-
-<<<<<<< HEAD
-    padding:8px 18px;
-    border-radius:13px;
-    margin-top: 32px;
-    font-size:16px;
-=======
-    padding:16px 32px;
+    padding: 7px 18px;
     border-radius:13px;
     margin-top: 32px;
     font-size:17px;
->>>>>>> ee1faf063813de4cad3ad8fcef4727feca3296fa
     font-weight:700;
      
     transition:.3s ease;
@@ -218,19 +204,15 @@ img{
 
 .trust-bar{
     display:flex;
-<<<<<<< HEAD
     justify-content: center;
     align-items:center;
     flex-wrap:wrap;
     gap:40px;
-    padding:16px 20px;
-=======
+    padding:12px 14px;
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-    gap:28px;
-    padding:18px 20px;
->>>>>>> ee1faf063813de4cad3ad8fcef4727feca3296fa
+    
     margin-right: 4px;
 
    font-size:14px;
@@ -247,13 +229,8 @@ img{
 .trust-item{
     display:flex;
     align-items:center;
-<<<<<<< HEAD
     gap: 12px;
-    
-=======
     gap:8px;
-
->>>>>>> ee1faf063813de4cad3ad8fcef4727feca3296fa
     opacity:.92;
     letter-spacing:.2px;
 }
@@ -491,17 +468,14 @@ img{
 
     text-decoration:none;
     margin-right: 50px;
-<<<<<<< HEAD
     padding:10px 14px;
     border-radius:12px;
 
     font-size:16px;
-=======
     padding:12px 18px;
     border-radius:12px;
 
     font-size:18px;
->>>>>>> ee1faf063813de4cad3ad8fcef4727feca3296fa
     font-weight:700;
 
     transition:.3s ease;
