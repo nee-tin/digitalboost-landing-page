@@ -448,7 +448,9 @@ img{
     display:flex;
     justify-content:center;
     padding-right:20px;
-    margin-right: 26px
+    margin-right: 26px;
+    margin-top: 14px;
+    padding-top: 20px;
 }
 
 .footer-btn{
@@ -458,7 +460,7 @@ img{
     color:#fff;
 
     text-decoration:none;
-    margin-right: 14px;
+    margin-right: 50px;
     padding:14px 22px;
     border-radius:12px;
 
@@ -652,6 +654,14 @@ img{
     .footer-brand{
         margin-top:40px;
     }
+
+     .footer-btn{
+    display:inline-block;
+
+    margin-left: 50px;
+
+    
+}
 }
 
 
@@ -705,7 +715,13 @@ img{
      
 }
 
- 
+ .footer-btn{
+    display:inline-block;
+
+    margin-left: 50px;
+
+    
+}
    
 
 
