@@ -1,1 +1,9 @@
- 
+ @media (max-width:375px){
+    .footer-btn{
+    display:inline-block;
+
+    margin-left: 50px;
+
+    
+}
+ }
