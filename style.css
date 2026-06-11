@@ -1,4 +1,4 @@
-/* style.css */
+ /* style.css */
 
 
 
@@ -734,6 +734,10 @@ img{
     
 }
 
+.testimonial-box{
+    width: 50%;
+}
+
  .footer-links ul{
         
          
@@ -745,5 +749,14 @@ img{
 
 }
 
+@media (max-width:375px){
 
- 
+
+
+*{
+    box-sizing: border-box;
+
+
+}
+
+}
