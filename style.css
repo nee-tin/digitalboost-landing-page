@@ -143,8 +143,8 @@ img{
     font-size:64px;
     line-height:1.08;
     font-weight:700;
-    padding-top: 2px;
-    margin-bottom:48px;
+    padding-top: 42px;
+    margin-bottom:20px;
 }
 
 .hero p{
@@ -213,7 +213,7 @@ img{
    font-size:14px;
    font-weight:500;
     color:#ffffff;
-    background-color: #6b99bd;
+    background-color: #3b6792;
     
 }
 
