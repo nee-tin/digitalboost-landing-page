@@ -14,7 +14,6 @@ body{
     background:#030a3c;
     overflow-x:hidden;
     width:100%;
-    margin: 0;
 }
 
  
@@ -35,7 +34,7 @@ img{
     width:100%;
     height:80px;
 
-    padding:0 36px;
+    padding:0 30px;
 
     display:flex;
     align-items:center;
@@ -93,28 +92,27 @@ img{
     color:#fff;
     background:#27d3c7;
 
-
-    padding:10px 12px;
+    padding:10px 16px;
     border-radius:12px;
 
     font-size:14px;
     font-weight:700;
-
+       
     transition:.3s ease;
 }
+
 
 .nav-btn:hover{
     transform:translateY(-4px);
     background:#31d8d0;
 }
-
 /* =========================
    HERO
 ========================= */
 
 .hero{
-    min-height:50vh;
-    padding: 80px 20px;
+    min-height:400px;
+    padding: 90px 20px;
 
     display:flex;
     align-items:center;
@@ -135,7 +133,7 @@ img{
 .hero-content{
     max-width:1400px;
     width:100%;
-    margin-top:12px;
+    margin-top:-40px;
 }
 
 .hero h1{
@@ -167,7 +165,8 @@ img{
     color:#fff;
 
     background:#27d3c7;
-    padding: 12px 20px;
+
+    padding:12px 26px;
     border-radius:13px;
     margin-top: 32px;
     font-size:17px;
@@ -185,22 +184,19 @@ img{
    HERO IMAGE
 ========================= */
 
-.hero-image-strip{
+.hero-image{
     width:100%;
-    height:70vh;
+    height:420px;
+
     overflow:hidden;
-    
-    
+    line-height:0;
 }
 
-.hero-image-strip img{
+.hero-image img{
     width:100%;
-    height:70vh;
+    height:100%;
     object-fit:cover;
-    display:block;
 }
-
- 
 
 /* =========================
    TRUST BAR
@@ -211,32 +207,34 @@ img{
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-    gap:40px;
+    gap:28px;
+    padding:18px 20px;
 
-    padding:10px 14px;
-     
-    font-size:14px;
-    font-weight:500;
-    color:#2a2828;
-
-    background:#a4b5d2;
-    border-bottom: none;
- 
-
-    margin-right:0;
+   font-size:14px;
+   font-weight:500;
+    color:#ffffff;
+    background-color: #6b99bd;
+    
 }
 
- 
 .trust-item{
     display:flex;
     align-items:center;
-    gap: 12px;
     gap:8px;
+
     opacity:.92;
     letter-spacing:.2px;
 }
- 
- 
+
+.trust-divider{
+    width:1px;
+    height:18px;
+    background:rgba(255,255,255,.18);
+}
+
+.trust-divider{
+    opacity:.8;
+}
 
 /* =========================
    SERVICES TOP
@@ -247,22 +245,17 @@ img{
     margin:0 auto;
 }
 
-.services-top {
-    background: #00163d;
-    text-align: center;
-   margin-top: 8px;
-     padding: 26px;
-;    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.services-top{
+    background:#00163d;
+    text-align:center;
+     padding: 38px 12px;
 }
 
 .services-top h2{
     color:#fff;
     font-size:48px;
-    
-    margin-top: 12px;;}
+    margin-bottom:18px;
+}
 
 .services-top p{
     color:#ffffff;
@@ -270,8 +263,8 @@ img{
     font-weight:300;
     line-height:1.7;
     max-width:700px;
-    margin-top: 12PX;
-    padding-bottom: 28px;
+    margin:0 auto;
+    padding-bottom: 12px;
 }
 
 /* =========================
@@ -291,7 +284,7 @@ img{
 
     display:flex;
     justify-content:space-between;
-    gap:36px;
+    gap:30px;
 
     flex-wrap:nowrap;
 }
@@ -301,13 +294,13 @@ img{
 
     min-height:172px;
 
-    background:#ffffff;
+    background:#efefec;
 
     border-radius:22px;
 
     box-shadow:
-    0 3px 8px rgba(0,0,0,.28),
-    inset 0 1px 0 rgba(255,255,255,.45);
+    0 3px 8px rgba(0,0,0,.18),
+    inset 0 1px 0 rgba(255,255,255,.6);
 
     padding:34px 26px;
 
@@ -371,18 +364,15 @@ img{
 }
 
 .testimonial-box{
-    width:460px;
+    width:400px;
 
     margin:0 auto;
 
-    background:#ffffff;
+    background:#efefef;
 
     border-radius:18px;
 
-   box-shadow:
-    0 3px 8px rgba(0,0,0,.28),
-    inset 0 1px 0 rgba(255,255,255,.45);
-
+    box-shadow:0 2px 8px rgba(0,0,0,.14);
 
     padding:42px 30px;
 
@@ -413,14 +403,14 @@ img{
     background:#00143a;
     color:#ffffff;
 
-    padding:30px 55px 18px;
+    padding:20px 55px;
     margin-top:25px;
 }
 
 .footer-grid{
     display:grid;
     grid-template-columns:1.3fr 1fr 1fr;
-    padding: 10px 0;
+
     align-items:start;
     gap:20px;
 }
@@ -433,23 +423,19 @@ img{
     margin-bottom:28px;
 }
 
- 
-
 .footer-left p{
     font-size:24px;
     font-weight:300;
     line-height:1.6;
- 
+
     color:rgba(255,255,255,.92);
 }
 
 .footer-center{
     display:flex;
     justify-content:center;
-    padding-left: 22px;
-    margin-right: 16px;
-    margin-top: 14px;
-    padding-top: 20px;
+    padding-right:28px;
+    margin-right: 12px;
 }
 
 .footer-btn{
@@ -459,16 +445,14 @@ img{
     color:#fff;
 
     text-decoration:none;
-    margin-right: 50px;
-    padding:10px 14px;
-    border-radius:12px;
 
-    font-size:16px;
-    padding:12px 18px;
+    padding:12px 16px;
     border-radius:12px;
+    margin-right: 12px;
+    margin-top: 12px;
 
-    font-size:18px;
-    font-weight:700;
+    font-size:20px;
+    font-weight:600;
 
     transition:.3s ease;
 }
@@ -479,8 +463,7 @@ img{
 }
 
 .footer-brand{
-    margin-top:68px;
-    
+    margin-top:120px;
 }
 
 .footer-brand h3{
@@ -498,12 +481,14 @@ img{
 
 .footer-links{
     justify-self:end;
-    padding-right:30px;
+    padding-right:20px;
+    
 }
 
 .footer-links h4{
     font-size:42px;
     margin-bottom:28px;
+    padding-right: 28px;
 }
 
 .footer-links ul{
@@ -513,7 +498,6 @@ img{
 .footer-links li{
     font-size:22px;
     margin-bottom:14px;
-    padding-left: 18px;
 }
 
 .footer-links a{
@@ -535,12 +519,6 @@ img{
 
     font-size:18px;
     color:#fff;
-}
-
-.footer-grid{
-    padding: 22px, 24px;
-    padding-right: 28px;
-    
 }
 
 /* =========================
@@ -665,98 +643,4 @@ img{
     .footer-brand{
         margin-top:40px;
     }
-
-     .footer-btn{
-    display:inline-block;
-
-    margin-left: 50px;
-
-    
-}
-}
-
-
-@media (max-width:480px){
-
-    .hero{
-        flex-direction:column;
-        text-align:center;
-        padding-top:-80px;
-    }
-
-    h1{
-        padding-bottom: 8px;
-    }
-
-    p{
-        padding-top: 8px;
-    }
-
-.trust-bar{
-  
-    gap:16px;
-    padding:4px 12px;
-
-   font-size:10px;
-   font-weight:500;
-    color:#ffffff;
-
-    background:rgba(255,255,255,.12);
-}
-
-.trust-item{
-    display:flex;
-    align-items:center;
-    gap:2px;
-
-    opacity:.92;
-    letter-spacing:.1px;
-}
-
-
-.services-top{
-    background:#00163d;
-    text-align:center;
-    padding:10px 2px 8px;
-}
-
-
- .service-card{
-    padding: 24px 8px;
-     
-}
-
- .footer-btn{
-    display:inline-block;
-
-    margin-left: 50px;
-
-    
-}
-
-.testimonial-box{
-    width: 50%;
-}
-
- .footer-links ul{
-        
-         
-        margin-right: 22px;
-    }
-
-   
-
-
-}
-
-@media (max-width:375px){
-
-
-
-*{
-    box-sizing: border-box;
-
-
-}
-
 }
