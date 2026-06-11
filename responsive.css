@@ -1,4 +1,4 @@
-  @media (max-width:1200px){
+ @media (max-width:1200px){
 
   .hero h1{
     font-size:54px;
@@ -17,6 +17,7 @@
     border-radius:12px;  /* slightly softer corners */
     font-size:18px;
   }
+ 
 
 }
 
@@ -139,6 +140,16 @@
     text-align:center;
   }
 
+.hero-image-strip {
+    height: 30vh;
+    overflow: hidden;
+}
+
+.hero-image-strip img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
   .hero-content{
     width:100%;
     margin-top:0;
@@ -162,7 +173,13 @@
   }
 
   .hero-image{
-    height:auto;
+    height: 100%;
+  }
+
+  .trust-bar{
+    width:100%;
+    height:100%;
+    align-items: center;
   }
 
   .service-grid{
@@ -246,10 +263,12 @@
 
   .footer-links h4{
     font-size:24px;
+    padding-left: 14px;
   }
 
   .footer-links li{
     font-size:16px;
+    padding-right: 12px;
   }
 
   .footer-copy{
@@ -260,127 +279,3 @@
 
 
 
-
-@media (max-width:480px){
-.footer-links{
-    justify-self:end;
-    padding-right:20px;
-    margin-right: 24px;
-    
-}
-
-.footer-links h4{
-    font-size:42px;
-    margin-bottom:28px;
-    padding-right: 30px;
-    margin-right: 8px;;
-     
-}
-
-.footer-links ul{
-    list-style:none;
-    padding-right: 20px;
-}
-
-.footer-links li{
-    font-size:22px;
-    margin-bottom:14px;
-    padding-right: 20px;
-}
-
-
-}
-
-
-@media (max-width:400px){
-.footer-links{
-    justify-self:end;
-    padding-right:10px;
-    margin-right: 10px;
-    
-}
-
-.footer-links h4{
-    font-size:42px;
-    margin-bottom:28px;
-    padding-right: 14px;
-    margin-right: 8px;;
-     
-}
-
-.footer-links ul{
-    list-style:none;
-     
-}
-
-.footer-links li{
-    font-size:22px;
-    margin-bottom:14px;
-    padding-right: 20px;
-}
-
-
-}
-
-
-@media (max-width:375px){
-.footer-links{
-    justify-self:end;
-    padding-right:10px;
-    margin-right: 10px;
-    
-}
-
-.footer-links h4{
-    font-size:42px;
-    margin-bottom:28px;
-    padding-right: 14px;
-    margin-right: 8px;;
-     
-}
-
-.footer-links ul{
-    list-style:none;
-     
-}
-
-.footer-links li{
-    font-size:22px;
-    margin-bottom:14px;
-    padding-right: 20px;
-}
-
-
-}
-
-
-
-@media (max-width:350px){
-.footer-links{
-    justify-self:end;
-    padding-left: 12px;
-    
-}
-
-.footer-links h4{
-    font-size:42px;
-    margin-bottom:28px;
-    padding-right: 14px;
-    margin-right: 2px;;
-     
-}
-
-.footer-links ul{
-    list-style:none;
-    padding-left: 12px;
-     
-}
-
-.footer-links li{
-    font-size:22px;
-    margin-bottom:14px;
-    padding-right: 2px;
-}
-
-
-}
