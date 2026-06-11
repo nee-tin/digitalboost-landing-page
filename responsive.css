@@ -1,4 +1,4 @@
-  @media (max-width:1200px){
+ @media (max-width:1200px){
 
   .hero h1{
     font-size:54px;
@@ -259,4 +259,34 @@
 }
 
 
- 
+
+
+@media (max-width:480px){
+.footer-links{
+    justify-self:end;
+    padding-right:20px;
+    margin-right: 24px;
+    
+}
+
+.footer-links h4{
+    font-size:42px;
+    margin-bottom:28px;
+    padding-right: 30px;
+    margin-right: 8px;;
+     
+}
+
+.footer-links ul{
+    list-style:none;
+    padding-right: 20px;
+}
+
+.footer-links li{
+    font-size:22px;
+    margin-bottom:14px;
+    padding-right: 20px;
+}
+
+
+}
