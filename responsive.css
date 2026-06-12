@@ -184,13 +184,14 @@
 
   .service-grid{
     flex-direction:column;
-    gap:20px;
-    padding-left: 24px;
+    gap:28px;
+    padding-left: 16px;
   }
 
   .service-card{
-    width:95%;
+    width:100%;
     max-width:100%;
+    
 
   }
 
@@ -251,8 +252,8 @@
 
   .footer-brand h3{
     font-size:32px;
-    padding-left: 20px;
-    margin-left: 20px;
+    padding-left: 24px;
+    margin-left: 24px;
   }
 
   .footer-brand p{
@@ -268,13 +269,13 @@
 
   .footer-links h4{
     font-size:24px;
-    padding-left: 26px;
+    padding-left: 18px;
     margin-left: 8px;
   }
 
   .footer-links li{
     font-size:16px;
-    padding-right: 2px;
+    padding-right: 8px;
   }
 
   .footer-copy{
