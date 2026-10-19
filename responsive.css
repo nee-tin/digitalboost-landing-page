@@ -285,6 +285,27 @@
 
 }
 
+@media (max-width: 480px) {
+    .testimonial-title {
+        font-size: 32px;
+        margin: 48px 0 26px;
+    }
+
+    .testimonial-box {
+        max-width: calc(100% - 32px);
+        padding: 24px 20px;
+    }
+
+    .testimonial-box p {
+        font-size: 17px;
+    }
+
+    .testimonial-box span {
+        font-size: 15px;
+    }
+}
+
+
 @media (max-width:375px){
          .trust-bar{
           font-size: small;
