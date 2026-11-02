@@ -217,12 +217,15 @@ img{
     gap:40px;
     padding:20px 22px;
 
-   font-size:14px;
+   font-size:16px;
    font-weight:500;
     color:#ffffff;
     background-color: #032c56;
     
 }
+
+
+
 
 .trust-item{
     display:flex;
