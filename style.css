@@ -97,7 +97,7 @@ img{
     color:#fff;
     background:#02cabcee;
 
-    padding:10px 12px;
+    padding:10px 14px;
     border-radius:12px;
 
     font-size:14px;
@@ -154,7 +154,7 @@ img{
 }
 
 .hero p{
-    color:#fff;
+    color:#ffffff;
     font-size:19px;
     line-height:1.65;
     font-weight:300;
@@ -168,7 +168,7 @@ img{
     display:inline-block;
 
     text-decoration:none;
-    color:#fff;
+    color:#ffffff;
 
     background:#02cabcee;
 
@@ -217,15 +217,12 @@ img{
     gap:40px;
     padding:20px 22px;
 
-   font-size:16px;
+   font-size:14px;
    font-weight:500;
     color:#ffffff;
     background-color: #032c56;
     
 }
-
-
-
 
 .trust-item{
     display:flex;
